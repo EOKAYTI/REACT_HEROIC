@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./banner.scss";
 const Banner = () => {
   return (
     <div>
@@ -9,10 +9,11 @@ const Banner = () => {
             <h2>A warm welcome!</h2>
             <p>
               Bootstrap utility classes are used to create this jumbotron since
-              the old component has been <br /> removed from the framework. Why
-              create custom CSS when you can use utilities?
+              the old component has <br />
+              been removed from the framework. Why create custom CSS when you
+              can use utilities?
             </p>
-            <button>Call to action</button>
+            <button className="btn">Call to action</button>
           </div>
         </div>
       </section>

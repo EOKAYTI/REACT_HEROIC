@@ -1,6 +1,6 @@
 // import giúp file khác import được file này và sử dụng
 import React from "react";
-
+import "./header.scss";
 const Header = () => {
   // Không phải HTML, mà thẻ thẻ JSX, giúp viết html trong js, jsx là object của react
   // Component HEADER này thực chất là JS
@@ -14,7 +14,9 @@ const Header = () => {
             <div className="header_menu">
               <ul>
                 <li>
-                  <a href="#">Home</a>
+                  <a className="active" href="#">
+                    Home
+                  </a>
                 </li>
                 <li>
                   <a href="#">About</a>

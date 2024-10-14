@@ -1,0 +1,30 @@
+header {
+  .myContainer {
+    .header_content {
+      align-items: center;
+      a {
+        font-size: 20px;
+      }
+      .header_menu {
+        padding: 8px 0;
+        ul {
+          li {
+            display: inline-block;
+            a {
+              color: #ffffff8c;
+              font-size: 16px;
+              padding: 8px;
+              transition: all 0.5s;
+              &::before {
+                color: white;
+              }
+              &:hover {
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
